@@ -8,5 +8,5 @@ import (
 
 func Test_Result(t *testing.T) {
 
-	assert.Equal(t, 1, hello.GetResult())
+	assert.Equal(t, 123, hello.GetResult())
 }
